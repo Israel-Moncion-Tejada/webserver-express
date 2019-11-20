@@ -9,7 +9,7 @@ const hbs = require('hbs');
 
 // Cargando el archivo helpers ubicando en la carpeta hbs
 // require('.\\hbs\\helpers')
-require('hbs/helpers')
+require('./hbs/helpers')
 
 const port = process.env.PORT || 3000;
 
